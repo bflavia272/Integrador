@@ -1,0 +1,101 @@
+h1 {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.top-nav-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+nav.navbar ul {
+  padding: 10px 0px;
+  margin: 0;
+}
+
+nav.navbar ul li {
+  list-style-type: none;
+}
+
+nav.navbar ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+.burger-menu i {
+  background-color: #1259c3;
+  color: white;
+  padding: 5px;
+  border-radius: 20%;
+  margin: 5px;
+}
+
+.product {
+  margin: 15px 0;
+  background-color: white;
+  cursor: pointer;
+}
+
+.product .product-content {
+  position: relative;
+  padding: 15px;
+  border-top: solid #ebebeb 1px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--gap, 1rem);
+}
+
+.product .product-content .price {
+  font-size: 18px;
+}
+
+.product-content .fa-truck{
+  display: block;
+  position: absolute;
+  color: green;
+  border: solid green 1px;
+  background-color: white;
+  font-size: 16px;
+  padding: 5px;
+  border-radius: 50%;
+  height: 30px;
+  width: 30px;
+  right: 20px;
+  top: -15px;
+}
+
+.descripcion {
+  font-weight: 800;
+  color: #4e4a4a;
+  margin-top: 15px;
+}
+
+footer {
+  background-color: white;
+}
+
+footer .fas {
+  color: #1259c3;
+}
+
+footer section p {
+  margin-top: 5px;
+}
+
+footer i {
+  font-size: 2em;
+  margin-bottom: 10px;
+  transition: 475ms;
+}
+
+footer i:hover {
+  color: #888;
+}
